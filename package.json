@@ -1,0 +1,28 @@
+{
+  "name": "bobsburgersapi",
+  "version": "1.0.0",
+  "author": "Nicolás Batista Piñeyro",
+  "homepage": "https://nicolasbatista.netlify.app/",
+  "description": "Bob's Burgers Characters API",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --exec npm run start"
+  },
+  "engines": {
+    "node": "18.12.1"
+  },
+  "keywords": [
+    "Bob's Burgers"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
